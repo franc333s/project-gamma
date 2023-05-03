@@ -3,7 +3,7 @@ import './Button.scss'
 
 export default function Button() {
     return <>
-        <button className='btn'>Button</button>
+        <button className='btn'>Botonet</button>
 
     </>
 

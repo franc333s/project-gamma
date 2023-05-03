@@ -3,9 +3,11 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: lightgreen;
+  background-color: blue;
+  z-index: 3;
 
   display: flex;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }

@@ -1,12 +1,51 @@
 body {
-    color: pink;
-    font-family: sans-serif;
+    background-color: rgb(217, 227, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .topbar-padding {
-    padding-top: 70px;
+    padding-top: 80px;
 }
 
 .sectionHeaders {
     border: 2px blue dotted;
+}
+
+
+
+// Classes para la barra de navegación de la guia de estilos
+.topbar--styleguide {
+    padding-top: 100px;
+    position: fixed;
+    z-index: 2;
+
+    background-color: red;
+    height: 100vh;
+
+    &__list {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 0;
+    }
+
+
+    &__element {
+        list-style: none;
+        font-size: 24px;
+        color: white;
+        padding: 28px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 28px;
+    }
 }

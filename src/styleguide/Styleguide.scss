@@ -1,6 +1,9 @@
+@import '../scss/sass-variables';
+
 body {
-    background-color: rgb(217, 227, 236);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(244, 247, 249);
+    font-family: $font-primary;
+    font-weight: 300;
     margin: 0;
 }
 
@@ -43,9 +46,172 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+}
 
-    &:hover {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 28px;
+// Color palette
+.color-palette {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+}
+
+.sq {
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sq--green {
+    background-color: $color-bg-green;
+  
+
+    &::after {
+        content: "#99CC66";
+        color: $color-white;
+        background-color: rgba(0, 0, 0, 0.21);
+
+        width: 100%;
+        text-align: center;
+        padding: 2px 0;
     }
+
+}
+
+.sq--blue {
+    background-color: $color-bg-blue;
+
+    &::after {
+        content: "#005EF6";
+        color: $color-white;
+        background-color: rgba(0, 0, 0, 0.21);
+
+        width: 100%;
+        text-align: center;
+        padding: 2px 0;
+    }
+
+}
+
+.sq--violet {
+    background-color: $color-bg-violet;
+
+    &::after {
+        content: "#C0B3FD";
+        color: $color-white;
+        background-color: rgba(0, 0, 0, 0.21);
+
+        width: 100%;
+        text-align: center;
+        padding: 2px 0;
+    }
+
+}
+
+.sq--red {
+    background-color: $color-bg-red;
+
+    &::after {
+        content: "#F73B3B";
+        color: $color-white;
+        background-color: rgba(0, 0, 0, 0.21);
+
+        width: 100%;
+        text-align: center;
+        padding: 2px 0;
+    }
+
+}
+
+.sq--orange {
+    background-color: $color-bg-orange;
+
+    &::after {
+        content: "#FFB800";
+        color: $color-white;
+        background-color: rgba(0, 0, 0, 0.21);
+
+        width: 100%;
+        text-align: center;
+        padding: 2px 0;
+    }
+
+}
+
+.sq--yellow {
+    background-color: $color-bg-yellow;
+
+    &::after {
+        content: "#FFB700";
+        color: $color-white;
+        background-color: rgba(0, 0, 0, 0.21);
+
+        width: 100%;
+        text-align: center;
+        padding: 2px 0;
+    }
+
+}
+
+.sq--black {
+    background-color: $color-bg-black;
+
+    &::after {
+        content: "#0F0F0F";
+        color: $color-white;
+        background-color: rgba(0, 0, 0, 0.21);
+
+        width: 100%;
+        text-align: center;
+        padding: 2px 0;
+    }
+
+
+}
+
+.sq--white {
+    background-color: $color-bg-white;
+
+    &::after {
+        content: "#FFFFFF";
+        color: $color-white;
+        background-color: rgba(0, 0, 0, 0.21);
+
+        width: 100%;
+        text-align: center;
+        padding: 2px 0;
+    }
+
+}
+
+.sq--gray-warm {
+    background-color: $color-bg-gray-warm;
+
+    &::after {
+        content: "#E7E5E4";
+        color: $color-white;
+        background-color: rgba(0, 0, 0, 0.21);
+
+        width: 100%;
+        text-align: center;
+        padding: 2px 0;
+    }
+
+}
+
+.sq--gray-cold {
+    background-color: $color-bg-gray-cold;
+
+    &::after {
+        content: "#E4E7E8";
+        color: $color-white;
+        background-color: rgba(0, 0, 0, 0.21);
+
+        width: 100%;
+        text-align: center;
+        padding: 2px 0;
+    }
+
 }

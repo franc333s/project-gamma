@@ -1,6 +1,15 @@
 
 
 .main--p {
-    color: blue;
+    color: black;
     font-size: 20px;
+}
+
+.font-primary {
+    font-family: $font-primary;
+}
+
+
+.font-secondary {
+    font-family: $font-secondary;
 }

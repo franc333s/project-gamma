@@ -13,9 +13,9 @@ function App() {
       <header>
         <Topbar />
         <h1>Project Gamma</h1>
-		<Link to="/">Home</Link>
-		<Link to="/contact">Contact</Link>
-    <Link to="/styleguide">StyleGuide</Link>
+		<Link to="/" className='topbar__a'>Home</Link>
+		<Link to="/contact" className='topbar__a'>Contact</Link>
+    <Link to="/styleguide" className='topbar__a'>StyleGuide</Link>
       </header>
       <main>
 		<Routes>

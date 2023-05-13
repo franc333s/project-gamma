@@ -12,3 +12,13 @@ header {
   align-items: center;
 }
 
+
+.topbar__a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topbar__a:hover {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+}

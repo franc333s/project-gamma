@@ -1,41 +1,49 @@
+// @import
+
 h1,
 .h1 {
+    font-family: $font-headers;
     margin: 0;
-    font-size: 36px;
+    font-size: $font-size-xlarge;
     color: tomato;
 }
 
 h2,
 .h2 {
+    font-family: $font-headers;
     margin: 0;
-    font-size: 32px;
+    font-size: $font-size-large;
     color: blue;
 }
 
 h3,
 .h3 {
+    font-family: $font-headers;
     margin: 0;
-    font-size: 28px;
+    font-size: $font-size-uppermedium;
     color: gold;
 }
 
 h4,
 .h4 {
+    font-family: $font-headers;
     margin: 0;
-    font-size: 24px;
-    color: yellowgreen;
+    font-size: $font-size-medium;
+    color: $color-green;
 }
 
 h5,
 .h5 {
+    font-family: $font-headers;
     margin: 0;
-    font-size: 20px;
+    font-size: $font-size-lowermedium;
     color: lightskyblue;
 }
 
 h6,
 .h6 {
+    font-family: $font-headers;
     margin: 0;
-    font-size: 16px;
+    font-size: $font-size-small;
     color: violet;
 }

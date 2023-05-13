@@ -1,6 +1,69 @@
+@import '../../scss/sass-variables';
+
 button, 
 .btn {
-    background-color: transparent;
-    padding: 20px 50px;
+    background-color: $color-bg-blue;
+    padding: 8px 28px;
     font-size: 20px;
+    border: none;
+    border-radius: 100px;
+    
+    font-family: $font-secondary;
+    color: $color-white;
+
+    transition: 0.7s all ease-in-out;
+
+    &:hover,
+    &:hover {
+        background-color: $color-bg-green;
+        color: $color-blue;
+        box-shadow: 0px 0px 15px 5px $color-bg-blue;
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+
+    }
+}
+
+
+.btn--secondary {
+    padding: 0 30px;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    
+    font-family: $font-secondary;
+    color: $color-blue;
+
+    transition: 0.7s all ease-in-out;
+
+    &:hover,
+    &:hover {
+        background-color: transparent;
+        font-size: 20px;
+        border: none;
+        color: transparent;
+        box-shadow: none;
+        text-shadow: 0 0 5px $color-blue;
+
+    }
+}
+
+.btn--cta {
+    background-color: transparent;
+    border: 2px solid $color-bg-blue;
+    padding: 8px 28px;
+    border-radius: 100px;
+    
+    color: $color-blue;
+
+    transition: 0.7s all ease-in-out;
+
+    &:hover,
+    &:hover {
+        background-color: $color-bg-blue;
+        color: $color-white;
+        box-shadow: 0px 0px 15px 5px $color-bg-green;
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+
+}
+
 }
